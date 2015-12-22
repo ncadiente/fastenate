@@ -1,5 +1,26 @@
 body {
-  h1 {
-    background-color: #fff;
-  }
+  background-color: #09738A;
+}
+#top {
+  display:flex;
+  flex-flow: column wrap;
+  height: 5%;
+}
+#title {
+  background-color: white;
+  width: 100%;
+  height: 5%;
+  background-color: orange;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#menu {
+  background-color:#78A890;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.menuItem {
 }
